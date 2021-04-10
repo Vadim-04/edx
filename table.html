@@ -1,0 +1,161 @@
+﻿<DOCTYPE html>
+<html>
+
+    <head>
+        <title>Чего я знаю</title>
+
+        <link rel="stylesheet" href="style.css">
+        <2link rel="stylesheet" href="var.scss">
+        есть программа sass для компилляции scss файла в простой css
+        есть команда sass -- watch car.scss:var.css
+        тогда при любом изменении исх.файла программа тут же скомпиллирует новый css
+
+            <style>
+                h2 {color: springgreen; text-align: right;}
+                #foo {color: springgreen; text-align: left;}
+                .baz {color: darkgreen; text-align: left;}
+
+                li {font-size: 14px; font-weight: bold;}
+                ul li {font-size: 12px; font-weight: normal;}
+
+                a {font-family: Times New Roman, sans-serif; font-size: 14px; font-weight: bold;}
+                a[href="https://facebook.com"] {color: red; font-family: Times New Roman, sans-serif; font-size: 14px; font-weight: bold;}
+
+                button {width: 100; height: 30; font-size: 20px; background-color: green}
+                button:hover {background-color: yellow}
+
+                @media (min-width: 600px) {
+                    button {font-size: 20px;}
+}
+                @media (max-width: 599px) {
+                    button {font-size: 12px;}
+}
+
+                #container {display: flex; flex-wrap: wrap}
+
+            </style>
+    </head>
+
+    <body>
+
+        <div id="container">
+            <div>1. This is some sample test inside of a div to demo Flexbox.</div>
+            <div>2. This is some sample test inside of a div to demo Flexbox.</div>
+            <div>3. This is some sample test inside of a div to demo Flexbox.</div>
+            <div>4. This is some sample test inside of a div to demo Flexbox.</div>
+            <div>5. This is some sample test inside of a div to demo Flexbox.</div>
+            <div>6. This is some sample test inside of a div to demo Flexbox.</div>
+            <div>7. This is some sample test inside of a div to demo Flexbox.</div>
+            <div>8. This is some sample test inside of a div to demo Flexbox.</div>
+        </div>
+
+        <button>Click me</button>
+
+        <ul>
+            <li><a href="https://google.com">Google</a></li>
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href="https://amazon.com">Amazon</a></li>
+        </ul>
+
+        <ol>
+            <li>First item</li>
+            <ul>
+                <li>One item</li>
+                <li>Another item</li>
+                <li>Yet another item</li>
+            </ul>
+            <li>Second item</li>
+            <ul>
+                <li>One item</li>
+                <li>Another item</li>
+                <li>Yet another item</li>
+            </ul>
+            <li>Third item</li>
+            <ul>
+                <li>One item</li>
+                <li>Another item</li>
+                <li>Yet another item</li>
+            </ul>
+        </ol>
+
+        <h1>Title with css</h1>
+        <h2>Styled title</h2>
+        <h2>This is second heading</h2>
+        <h2 id="foo">This is third heading</h2>
+        <h2 class="baz">This is fourth heading</h2>
+        <h2 class="baz">This is fifth heading</h2>
+        <h3 style="color: blue; text-align: left;">Yet another heading with different style</h3>
+
+        <form>
+
+            <div>
+            <input name="full_name" type="text" placeholder="Full name">
+            <input name="pass" type="password" placeholder="Your password">
+            </div>
+
+            <div>
+            Favourite colour?
+            <input name="colour" type="radio" value="red">Red
+            <input name="colour" type="radio" value="yellow">Yellow
+            <input name="colour" type="radio" value="green">Green
+            <input name="colour" type="radio" value="blue">Blue
+            </div>
+
+            <div>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Russia">
+                <option value="United States">
+                <option value="United Kingdom">
+                <option value="Sweeden">
+            </div>
+
+            <input type="submit" value="Регистрация">
+        </form>
+
+        <table>
+            <thead>
+                <th>Ocean</th>
+                <th>Average depth</th>
+                <th>Maximum depth</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pacific ocean</th>
+                    <td>4,280 m</th>
+                    <td>10,991 m</th>
+                </tr>
+                <tr>
+                    <td>Atlantic ocean</th>
+                    <td>3,646 m</th>
+                    <td>8,486 m</th>
+                </tr>
+            </tbody>
+        </table>
+
+        <a href="https://google.com">Click here</a><br>
+
+        <img src="cat.jpg" alt="cat" width="400"><br>
+
+        An ordered List:
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+
+        An Unordered List:
+        <ul>
+            <li>One item</li>
+            <li>Another item</li>
+            <li>Yet another item</li>
+        </ul>
+
+        <h1>Title 1</h1>
+        <h2>Title smaller</h2>
+        <h4>Title smaller (4)</h4>
+        <h6>And the smallest</h6>
+
+    </body>
+
+</html>

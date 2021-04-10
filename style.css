@@ -1,0 +1,31 @@
+﻿h1 {
+    color: red;
+    text-align: center;
+}
+
+div {
+    background-color: grey;
+    padding: 5px;
+    margin: 20px;
+
+    font-family: Times New Roman, sans-serif;
+    font-size: 14px;
+}
+
+input {
+    font-family: Times New Roman, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-family: Times New Roman, sans-serif;
+    font-size: 16px;
+    width: 400px;
+}
+
+th, td {
+    border: 1px solid black;
+}
